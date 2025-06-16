@@ -123,6 +123,7 @@ pipeline {
 
             environment {
                 CI_ENVIRONMENT_URL = 'https://mellifluous-gumption-44296a.netlify.app'
+            }
 
             steps {
                 sh '''
